@@ -1,0 +1,16 @@
+{
+  "name": "nurmal",
+  "version": "1.0.0",
+  "description": "The most normal bot: serving weather info, news, etc.",
+  "main": "index.js",
+  "repository": "https://github.com/textface/nurmal",
+  "author": "moriczgergo <greg@trofix.co>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "bufferutil": "^3.0.1",
+    "discord.js": "^11.1.0",
+    "rss-parser": "^2.10.0",
+    "uws": "^8.14.0",
+    "yahoo-weather": "^2.2.2"
+  }
+}
