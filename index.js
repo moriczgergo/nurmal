@@ -35,7 +35,7 @@ client.on('message', message => {
                     }
                 })
             } else {
-                parser.parseURL('https://news.google.com/news?output=rss&geo=' + userData[message.author.id.toString()].split(":")[0], function(err, parsed) {
+                parser.parseURL('https://news.google.com/news?output=rss&geo=' + userData[message.author.id.toString()].split(":")[0y], function(err, parsed) {
                     message.channel.send("Hello! Here are today's hot topics:");
                     parsed.feed.entries.forEach(function(entry) {
                         message.channel.send({embed: {
